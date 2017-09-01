@@ -1,0 +1,10 @@
+{
+    "recipes": [
+        {
+            "id": "1",
+            "title": "Broiled Chipotle Tomatoes",
+            "ingredients": ["Crackers", "Tomatoes", "Goat Cheese", "Chipotle Peppers", "Olive Oil"],
+            "instructions": "Slice tomatoes.\nMix the goat cheese with the chopped chipotle peppers.\nArrange tomatoes on an oven dish, sprinkle olive oil on top, and put it all inside the oven at 375 F for 5 minutes.\nAfter 5 minutes, take the tomatoes out and add the goat cheese mix on top. Bake for 3 more minutes.\nEnjoy!"
+        }
+    ]
+}
