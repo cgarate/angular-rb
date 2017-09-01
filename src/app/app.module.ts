@@ -7,7 +7,7 @@ import { RecipeCardComponent } from './recipe-card/recipe-card.component'
 
 import { RecipeStepsComponent } from './recipe-steps/recipe-steps.component';
 import { RecipeIngredientComponent } from './recipe-ingredient/recipe-ingredient.component';
-import { RecipeListIngredientsComponent } from './recipe-list-ingredients/recipe-list-ingredients.component';
+import { RecipeIngredientListComponent } from './recipe-ingredient-list/recipe-ingredient-list.component';
 import { RecipeTitleComponent } from './recipe-title/recipe-title.component'
 
 @NgModule({
@@ -17,7 +17,7 @@ import { RecipeTitleComponent } from './recipe-title/recipe-title.component'
     RecipeCardComponent,
     RecipeStepsComponent,
     RecipeIngredientComponent,
-    RecipeListIngredientsComponent,
+    RecipeIngredientListComponent,
     RecipeTitleComponent,
   ],
   imports: [
