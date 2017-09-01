@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule }    from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component'
@@ -10,6 +11,9 @@ import { RecipeIngredientComponent } from './recipe-ingredient/recipe-ingredient
 import { RecipeIngredientListComponent } from './recipe-ingredient-list/recipe-ingredient-list.component';
 import { RecipeTitleComponent } from './recipe-title/recipe-title.component'
 
+import { RecipeDataService } from './recipe-data.service';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,11 +23,15 @@ import { RecipeTitleComponent } from './recipe-title/recipe-title.component'
     RecipeIngredientComponent,
     RecipeIngredientListComponent,
     RecipeTitleComponent,
+    DashboardComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    // Include it under 'imports' in your application module
+    // after BrowserModule.
+    HttpModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [RecipeDataService],
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
