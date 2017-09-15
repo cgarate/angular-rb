@@ -1,6 +1,8 @@
 
 div {
   background: #f0ad4e;
-  font-family: sans-serif;
-  padding: 15px;
+  padding: 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ffffff;
 }

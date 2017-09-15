@@ -8,5 +8,5 @@ import { Recipe } from '../recipe'
 })
 export class RecipeCardComponent {
   @Input() recipe: Recipe;
-
+  
 }

@@ -1,5 +1,5 @@
-<div>
-  <app-recipe-title></app-recipe-title>
-  <app-recipe-list-ingredients></app-recipe-list-ingredients>
-  <app-recipe-steps></app-recipe-steps>
+<div class="card">
+  <app-recipe-title [recipe]="recipe"></app-recipe-title>
+  <app-recipe-ingredient-list [recipe]="recipe"></app-recipe-ingredient-list>
+  <app-recipe-steps [recipe]="recipe"></app-recipe-steps>
 </div>

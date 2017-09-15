@@ -1,7 +1,8 @@
 <div>
   <p>List of Ingredients</p>
   <span><a href="">+ add ingredient</a></span>
-  <ul>
-    <app-recipe-ingredient></app-recipe-ingredient>
+
+   <ul *ngFor="let ingredient of recipe.ingredients">
+    <app-recipe-ingredient [ingredient]="ingredient"></app-recipe-ingredient>
   </ul>
 </div>
